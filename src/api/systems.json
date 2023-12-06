@@ -1,0 +1,29 @@
+{
+  "systems": [
+    {
+      "id": 1,
+      "name": "System A",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "System B",
+      "status": "inactive"
+    },
+    {
+      "id": 23,
+      "name": "System C",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "System D",
+      "status": "inactive"
+    },
+    {
+      "id": 5,
+      "name": "System E",
+      "status": "active"
+    }
+  ]
+}

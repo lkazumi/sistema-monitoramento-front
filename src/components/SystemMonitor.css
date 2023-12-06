@@ -1,0 +1,59 @@
+/* src/components/SystemMonitor.css */
+
+/* Paleta de Cores - Dracula Dark Mode */
+:root {
+  --background-dark: #282a36;
+  --text-dark: #f8f8f2;
+  --background-light: #ecf0f1;
+  --text-light: #333;
+  --current-line: #44475a;
+  --selection: #44475a;
+  --comment: #6272a4;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --red: #ff5555;
+  --yellow: #f1fa8c;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
+
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+/* Cartões dos Sistemas */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Ícone de Togle (Sol e Lua) para Modo Noturno */
+.toggle-dark-mode {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--orange);
+}
+
+/* Cores de Fundo com Base no Status */
+.bg-success {
+  background-color: var(--green);
+}
+
+.bg-danger {
+  background-color: var(--red);
+}
